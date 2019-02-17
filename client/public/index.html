@@ -2,37 +2,175 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#000000">
-  <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-    -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-    crossorigin="anonymous">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
-    crossorigin="anonymous"></script>
-
-
-
-  <title>DevConnector: A social network for developers</title>
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="http://jobboard.inwavethemes.com/xmlrpc.php">
+  <link type="text/css" media="all" href="%PUBLIC_URL%/assets/css/home.css" rel="stylesheet"/> 
+  <!-- <link type="text/css" media="all" href="%PUBLIC_URL%/assets/css/about.css" rel="stylesheet"/>  -->
+  <link type="text/css" media="all" href="%PUBLIC_URL%/assets/css/custom.css" rel="stylesheet"/> 
+  <title>Việc làm đà nẵng &#8211;JobBoard</title>
+  <meta name='robots' content='noindex,follow'/>
+  <link rel='dns-prefetch' href='//www.google.com'/>
+  <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
+  <link rel='dns-prefetch' href='//s.w.org'/>
+  <link rel="alternate" type="application/rss+xml" title="JobBoard &raquo; Feed" href="http://jobboard.inwavethemes.com/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="JobBoard &raquo; Comments Feed" href="http://jobboard.inwavethemes.com/comments/feed/"/>
+  <link rel='stylesheet' id='injob-fonts-css' href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C600%2C700%2C800+%7CMontserrat%3A300%2C400%2C500%2C600%2C700%2C800%2C900%7CPlayfair+Display%3A400%2C400i%2C700%2C700i%2C900%2C900i&#038;subset=latin%2Clatin-ext&#038;ver=3.2.0' type='text/css' media='all'/>
+  <script type='text/javascript' src='%PUBLIC_URL%/assets/js/jquery.js'></script>
+  <script type='text/javascript' src='%PUBLIC_URL%/assets/libs/jquery/jquery.min.js'></script>
+  <script type='text/javascript' src='%PUBLIC_URL%/assets/js/jquery.twbsPagination.min.js'></script>
+  <link rel='https://api.w.org/' href='http://jobboard.inwavethemes.com/wp-json/'/>
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://jobboard.inwavethemes.com/xmlrpc.php?rsd"/>
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://static-jobboard.inwavethemes.com/wp-includes/wlwmanifest.xml"/>
+  <meta name="generator" content="WordPress 4.9.8"/>
+  <meta name="generator" content="WooCommerce 3.4.5"/>
+  <link rel="canonical" href="http://jobboard.inwavethemes.com/home-default/"/>
+  <link rel='shortlink' href='http://jobboard.inwavethemes.com/?p=4049'/>
+  <link rel="alternate" type="application/json+oembed" href="http://jobboard.inwavethemes.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fjobboard.inwavethemes.com%2Fhome-default%2F"/>
+  <link rel="alternate" type="text/xml+oembed" href="http://jobboard.inwavethemes.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fjobboard.inwavethemes.com%2Fhome-default%2F&#038;format=xml"/>
+  <noscript>
+      <style>
+          .woocommerce-product-gallery {
+              opacity: 1 !important;
+          }
+      </style>
+  </noscript>
+  <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+  <meta name="generator" content="Powered by Slider Revolution 5.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."/>
+  <script type="text/javascript">
+      function setREVStartSize(e) {
+          try {
+              e.c = jQuery(e.c);
+              var i = jQuery(window).width()
+                , t = 9999
+                , r = 0
+                , n = 0
+                , l = 0
+                , f = 0
+                , s = 0
+                , h = 0;
+              if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function(e, f) {
+                  f > i && (t = r = f,
+                  l = e),
+                  i > f && f > r && (r = f,
+                  n = e)
+              }),
+              t > r && (l = n)),
+              f = e.gridheight[l] || e.gridheight[0] || e.gridheight,
+              s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth,
+              h = i / s,
+              h = h > 1 ? 1 : h,
+              f = Math.round(h * f),
+              "fullscreen" == e.sliderLayout) {
+                  var u = (e.c.width(),
+                  jQuery(window).height());
+                  if (void 0 != e.fullScreenOffsetContainer) {
+                      var c = e.fullScreenOffsetContainer.split(",");
+                      if (c)
+                          jQuery.each(c, function(e, i) {
+                              u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+                          }),
+                          e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+                  }
+                  f = u
+              } else
+                  void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+              e.c.closest(".rev_slider_wrapper").css({
+                  height: f
+              })
+          } catch (d) {
+              console.log("Failure at Presize of Slider:" + d)
+          }
+      }
+      ;</script>
+  <noscript>
+      <style type="text/css">
+          .wpb_animate_when_almost_visible {
+              opacity: 1;
+          }
+      </style>
+  </noscript>
 </head>
 
-<body>
+<body id="page-top" class="page-template page-template-page-templates page-template-home-page page-template-page-templateshome-page-php page woocommerce-no-js wpb-js-composer js-comp-ver-5.5.2 vc_responsive">
   <noscript>
     You need to enable JavaScript to run this app.
   </noscript>
   <div id="root"></div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-    crossorigin="anonymous"></script>
-</body>
+
+  <script type="text/javascript" defer src="%PUBLIC_URL%/assets/js/home.js"></script>
+  <script type="text/javascript" defer src="%PUBLIC_URL%/assets/js/revolution.extension.layeranimation.min.js"></script>
+  <script type="text/javascript" defer src="%PUBLIC_URL%/assets/js/revolution.extension.navigation.min.js"></script>    
+  <script type="text/javascript" defer src="%PUBLIC_URL%/assets/js/revolution.extension.slideanims.min.js"></script>
+
+  <script type="text/javascript">
+    var c = document.body.className;
+    c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+    document.body.className = c;
+</script>
+<script type='text/javascript'>
+    var wpcf7 = {
+        "apiSettings": {
+            "root": "http:\/\/jobboard.inwavethemes.com\/wp-json\/contact-form-7\/v1",
+            "namespace": "contact-form-7\/v1"
+        },
+        "recaptcha": {
+            "messages": {
+                "empty": "Please verify that you are not a robot."
+            }
+        },
+        "cached": "1"
+    };
+</script>
+<script type='text/javascript'>
+    var ajax_posts = {
+        "ajaxurl": "http:\/\/jobboard.inwavethemes.com\/wp-admin\/admin-ajax.php",
+        "noposts": "No older posts found"
+    };
+</script>
+<script type='text/javascript'>
+    var iwj = {
+        "site_url": "http:\/\/jobboard.inwavethemes.com\/wp-admin\/",
+        "base_url": "http:\/\/jobboard.inwavethemes.com",
+        "ajax_url": "http:\/\/jobboard.inwavethemes.com\/wp-admin\/admin-ajax.php",
+        "security": "8f1eaeb1e7",
+        "query_vars": "{\"page\":\"\",\"pagename\":\"login\"}",
+        "map_styles": "",
+        "total_email_queue": "1",
+        "woocommerce_checkout": "",
+        "lang": "",
+        "use_recaptcha": []
+    };
+</script>
+
+<script type='text/javascript'>
+    var inwaveCfg = {
+        "siteUrl": "http:\/\/jobboard.inwavethemes.com\/wp-admin\/",
+        "themeUrl": "http:\/\/jobboard.inwavethemes.com\/wp-content\/themes\/injob",
+        "baseUrl": "http:\/\/jobboard.inwavethemes.com",
+        "ajaxUrl": "http:\/\/jobboard.inwavethemes.com\/wp-admin\/admin-ajax.php"
+    };
+</script>
+<script type='text/javascript'>
+    var i18niwjmbmultiselect = {
+        "selectAllText": " Select all",
+        "filterPlaceholder": " Search",
+        "nonSelectedText": " None selected",
+        "allSelectedText": "All selected"
+    };
+</script>
+<script type='text/javascript'>
+    var i18niwjmbTaxonomy2 = {
+        "selectAllText": " Select all",
+        "filterPlaceholder": " Search",
+        "nonSelectedText": " None selected",
+        "allSelectedText": "All selected"
+    };
+</script>
+
+  </body>
 
 </html>
