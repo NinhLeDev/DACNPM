@@ -1,5 +1,5 @@
 # DACNPM
-* Install server
+## Install server
 - Create .env
 - push some thing from .example.env to .env
 - npm install
@@ -7,7 +7,7 @@
 - npm start
 - App open on 3001 port
 
-* Install client
+## Install client
 - Create .env.development.local
 - push some thing from .example.env fo .env.development.local
 - yarn install
